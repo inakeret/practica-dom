@@ -165,6 +165,7 @@ const pintarCards = () => {
 
         /* un article   */
         const cajaViaje = document.createElement('article');
+        cajaViaje.classList.add('card');
 
         /* un div   */
         const cajaImagen = document.createElement('div');

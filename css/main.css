@@ -31,6 +31,9 @@ img {
 .flexContainer>* {
     width: 100%;
 }
+.flexContainer .card:hover{
+    transform: scale(1.05);
+}
 
 footer{
     text-align: center;
