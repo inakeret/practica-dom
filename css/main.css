@@ -12,10 +12,11 @@ img {
 
 .fullContainer {
     width: 100%;
+    display: none;
 }
 
 .container {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     border: 1px solid rgb(129, 129, 8);
 }
@@ -29,6 +30,13 @@ img {
 
 .flexContainer>* {
     width: 100%;
+}
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+    background-color: gray;
+    margin-top: 20px;
 }
 
 /* ===============================
